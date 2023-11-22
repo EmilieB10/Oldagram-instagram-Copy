@@ -1,0 +1,70 @@
+/* SECTIONS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+.who-posted,
+.description-and-likes {
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.who-posted {
+  display: flex;
+  border-top: 1px solid #c6c6c6;
+}
+/* PARAGRAPHS */
+
+.likes,
+.user-name {
+  font-weight: bold;
+}
+
+.likes {
+  margin-bottom: 12px;
+}
+/* IMAGES */
+
+.logo-img {
+  max-width: 127px;
+  max-height: 33px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.like-comment-share {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.who-posted-avatar {
+  margin-right: 7px;
+}
+
+.post-img {
+  max-width: 375px;
+  max-height: 375px;
+}
+
+.icon-img {
+  width: 23px;
+  height: 23px;
+}
